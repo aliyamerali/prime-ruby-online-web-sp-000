@@ -2,9 +2,7 @@
 require 'benchmark'
 
 def prime?(num)
-  if num <= 0
-    return false
-  elsif num == 1
+  if num <= 0 || num == 1
     return false
   elsif num == 2
     return true
