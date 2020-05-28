@@ -28,5 +28,5 @@ def prime_refactored?(num)
   end
 end
 
-# puts prime?(12)
+puts prime_refactored(2)
 # puts Benchmark.measure {}
